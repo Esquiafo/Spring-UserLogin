@@ -1,0 +1,59 @@
+.nav-link-active{
+text-decoration: none;
+color: black;
+
+}
+.button1{
+    float: right;
+    display: inline;
+    font-size: 17px;
+    font-family: 'Lexend', sans-serif;
+    background-color:#f0cb38;
+    border: none;
+    margin-left: 180px;
+    margin-right: 50px;
+    margin-top:15px;
+    width:140px;
+    height: 30px;
+   border-radius: 20px;
+   
+}
+.button2{
+    float: right;
+    display: inline;
+    font-size: 17px;
+    font-family: 'Lexend', sans-serif;
+    background-color:#f0cb38;
+    border: none;
+    margin-left: -20px;
+    margin-top:15px;
+    width:140px;
+    height: 30px;
+    border-radius: 20px;
+   
+}
+.navbar-nav{
+    background-color:transparent;
+    margin-left: 810px;
+    margin-top: 20px;
+}
+.fondo{
+background-image: url("../img/Pagina\ principal.png");
+background-size: 1415px 700px;
+background-repeat: no-repeat;
+}
+.adress{
+    font-family: 'Lexend', sans-serif;
+    margin-top: 600px;
+    size: 5px;
+    margin-left: 950px;
+}
+.image{
+    margin-left: 505px;
+    margin-top:230px ;
+}
+.adress{
+    margin-top:230px;
+}
+
+

@@ -1,0 +1,25 @@
+.title{
+    font-family: 'Lexend', sans-serif;
+    margin-left: 400px;
+    margin-top: 300px;
+    font-size: 40px;
+}
+.background{
+    background-image: url("../img/Pagina\ principal.png");
+    background-size: 1415px 700px;
+    background-repeat: no-repeat;
+}
+.button{
+    float: right;
+    display: inline;
+    font-size: 19px;
+    font-family: 'Lexend', sans-serif;
+    color: black;
+    background-color:#f0cb38;
+    border: none;
+    margin-left: -20px;
+    margin-top:-340px;
+    width:140px;
+    height: 30px;
+    border-radius: 20px;
+}

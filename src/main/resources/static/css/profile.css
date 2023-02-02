@@ -1,0 +1,72 @@
+.form-group {
+  background-color: #f0cb38;
+  border: none;
+  font-size: 15px;
+  font-family: "Lexend", sans-serif;
+  border-radius: 20px;
+}
+.buttons {
+  width: 110%;
+  background-color: #f0cb38;
+  border: none;
+}
+#form-group-profile #buttons-profile {
+  border: none;
+  font-size: 15px;
+  font-family: "Lexend", sans-serif;
+  border-radius: 20px;
+  width: 100%;
+  height: 50px;
+  background-color: green;
+}
+.profile {
+  padding: 5% 0% 5% 0%;
+}
+.row {
+  padding: 5% 5% 5% 5%;
+}
+.image-group {
+  display: flex;
+  justify-content: center;
+  padding: 5% 5% 5% 5%;
+}
+.form-group {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 2% 2% 2% 2%;
+}
+
+.list-group-item .input-datos {
+  border: none;
+  text-decoration: none;
+}
+.container {
+  margin-top: 3%;
+  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+    0 15px 40px rgba(166, 173, 201, 0.2);
+}
+.btn-primary {
+  width: 85%;
+}
+.box1 {
+  font-family: "Lexend", sans-serif;
+  margin-left: 10px;
+}
+#image {
+  margin-right: 130px;
+  margin-top: -10px;
+}
+.button-delete {
+  color: white;
+  background-color: red;
+  font-family: "Lexend", sans-serif;
+  border: none;
+  border-radius: 20px;
+  width: 180px;
+  margin-left: 80%;
+}
+/* #logo {
+  margin-top: -1000px;
+  margin-left: 70%;
+} */

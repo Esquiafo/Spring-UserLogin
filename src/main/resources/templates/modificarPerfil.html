@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"&amp;gt;>
+    <link rel="stylesheet" href="../css/modificarPerfil.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+</head>
+<body background="imagenes/acceso.png" class="background-image">
+<div class="container create-container">
+            <div class="row">
+                <div class="form-group">
+				<a href="/"><input type="button" class="button" value="volver" /> </a>
+			</div>
+                <div class="registration-table">
+                    <br>
+                    <h3>Modifique sus datos aqui</h3>
+                    <form action="/modificar" method="POST">
+
+                    <h6 th:if="${error != null}" th:text="${error}" style="color: red;"></h6>
+                    <br>
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Email</label>
+            
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="ejemplo@gmail.com">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Contraseña</label>
+                            <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="***">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Nombre</label>
+                            <input type="nombre" class="form-control" id="exampleFormControlInput1" placeholder="Nombre...">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Apellido</label>
+                            <input type="apellido" class="form-control" id="exampleFormControlInput1" placeholder="Apellido...">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Telefono</label>
+                            <input type="telefono" class="form-control" id="exampleFormControlInput1" placeholder="2612345678">
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" class="button" value="Crear Usuario"/>
+                        </div>
+                            <img id="image" src="../img/LOGO.png" alt="Generic placeholder image" width="280" height="110">
+                     </form>
+                </div>
+            </div>
+        </div>
+
+  
+</body>
+</html>
